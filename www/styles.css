@@ -1,0 +1,627 @@
+body{
+  background-image: url("bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 0;
+}
+
+.title{
+  padding: 10px;
+  padding-left: 50px;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+/*Intro head is for the home page text in the centre*/
+#intro-head{
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding: 30px;
+  width: 50%;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .5);
+  border-radius: 50px;
+  margin: 0 auto;
+  margin-top: 120px !important;
+}
+
+#intro-head h1{
+  font-weight: 800;
+}
+
+
+.nav{
+  justify-content: end;
+  font-size: 18px;
+}
+
+.nav-link.active{
+    color: #fbff00 !important;
+}
+
+.overview{
+  margin: 0 auto !important;
+  margin-top: 40px !important;
+  padding: 80px;
+  font-size: 18px;
+  width: 65%;
+  line-height: 35px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8f8f8;
+}
+
+.footer img{
+  margin: auto 20px;
+}
+
+.footer-content{
+  display: flex;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+#yearInfo {
+  margin: auto;
+	width: 100%;
+	background-color: rgb(255 255 255 / 70%);
+  color: #000000;
+	
+}
+.hoverinfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  padding: 40px;
+}
+
+#growth-year-logo {
+	float: left;
+}
+
+#growth-year-info {
+	margin-left: 220px;
+}
+
+.well {
+  width: 400px;
+  margin: auto 30px;
+  height: min-content;
+  background-color: rgb(255 255 255 / 90%);
+  color: #000000;
+}
+
+.plot-style{
+  width: 100%;
+  background: rgb(171 83 101 / 28%);
+}
+
+.grwoth-line-legend {
+  display: flex;
+  margin-top: 70px;
+}
+
+
+.growth-heading{
+  color: black;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff40;
+  width: 39%;
+  border-radius: 30px;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+#results-tally{
+  width: 100%;
+  font-size: 20px;
+}
+
+#medal-tally-title {
+	text-align: center;
+  background-color: #ffffffbd;
+  width: 100%;
+  padding: 20px;
+  margin: 0 auto 30px;
+  border-radius: 30px;
+}
+
+div#results-tally th,
+div#results-tally td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: right;
+}
+.results-header{
+  background-color: bisque !important;
+}
+
+th.results-gold {
+	color: #C98910;
+	text-align: right !important;
+}
+th.results-silver {
+	color: #A8A8A8;
+}
+th.results-bronze {
+	color: #965A38;
+}
+
+tr.results-row:nth-child(even) {
+	background: #fff4e8
+}
+tr.results-row:nth-child(odd) {
+	background: #ffecd7
+}
+
+td.results-rank {
+	text-align: right;
+}
+
+
+td.results-gold,
+td.results-silver,
+td.results-bronze,
+td.results-total {
+	text-align: right;
+}
+
+td.results-total {
+	font-weight: bold;
+}
+
+.medaltally-heading{
+  color: white;
+  text-align: center;
+  background-color: #00000052;
+  padding: 20px;
+  border-radius: 30px;
+  width: max-content;
+  margin: 0 auto 30px auto;
+}
+
+.table-class{
+  height:700px;
+  width: 90%;
+  margin: 0px auto 0px 100px;
+  padding: 20px;
+  overflow:scroll;
+}
+
+#leaflet-map-container {
+	position: relative;
+	margin-top: 20px !important;
+	margin-bottom: 20px;
+}
+
+.map-radio {
+    position: absolute;
+    z-index: 1;
+    margin: 10px;
+    padding: 10px;
+}
+.map-title {
+    font-size: 10px !important;
+    text-align: center;
+    background: #00000087;
+    width: 60%;
+    margin: 0 auto;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: white;
+}
+.plot-note {
+	color: white;
+	font-weight: bold;
+}
+
+.control-label {
+  font-weight: 700 !important;
+  font-size: 18px;
+}
+
+.map-well {
+  background-color: rgb(0 0 0 / 25%);
+}
+
+.country-profile{
+  margin: 50px auto;
+  text-align: center;
+  padding: 20px;
+  width: 40%;
+  font-size: 30px;
+  background: #ffffffa6;
+  border-radius: 30px;
+  font-weight: 700;
+}
+
+#country-profile-details {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#countryProfile {
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+}
+
+.countrypage {
+  display: flex;
+  flex-direction: row;
+}
+
+#country-profile-table {
+  background: white;
+}
+
+table#country-profile-table td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+td.country-profile-label {
+	text-align: left;
+}
+
+td.country-profile-value {
+	font-weight: bold;
+}
+
+.countrydetails {
+    margin: 50px auto !important;
+    width: 30%;
+    background: #ffffff94;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+#country-profile-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.imgcenter {
+  margin: 0 auto;
+  display: block; 
+  text-align: center;
+  font-style: italic;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.post{
+    margin: 0 15% 10px 15%;
+    display: flex;
+}
+
+.postImage{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.postInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.postTitle{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.postDate{
+    font-style: italic;
+    font-size: 13px;
+    color: #999;
+    margin-top: 15px;
+}
+
+.postDescription{
+    font-size: 16px;
+    color: #444;
+    line-height: 20px;
+    margin-top: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.blogs{
+    flex: 7;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.sidebar{
+    flex: 2;
+    margin: 3% 20px;
+    padding-bottom: 30px;
+    background-color: #fdfbfb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarItem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebarItem > p{
+    padding: 30px;
+    line-height: 25px;
+    font-size: 16px;
+}
+.sidebarTitle{
+    margin: 10px;
+    padding: 5px;
+    width: 80%;
+    border-top: 1px solid #a7a4a4;
+    border-bottom: 1px solid #a7a4a4;
+    font-size: 20px;
+    font-weight: 600;
+    color: #222;
+    text-align: center;
+}
+
+.sidebarSocial{
+    margin-top: 10px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sidebarIcons{
+    font-size: 16px;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.blogpage {
+  display: flex;
+}
+
+.postImagediv{
+  display: flex;
+  align-items: center;
+  margin: 0px 15px;
+  padding: 10px;
+  width: 100%;
+}
+
+.predictPage{
+  margin: 0 25%;
+}
+
+.paper{
+  margin: 5% auto;
+  background: #fff;
+  box-shadow:
+    /* The top layer shadow */
+    0 1px 1px rgba(0,0,0,0.15),
+    /* The second layer */
+    0 10px 0 -5px #eee,
+    /* The second layer shadow */
+    0 10px 1px -4px rgba(0,0,0,0.15),
+     /* The third layer */
+    0 20px 0 -10px #eee,
+    /* The third layer shadow */
+    0 20px 1px -9px rgba(0,0,0,0.15);
+    /* Padding for demo purposes */
+  padding: 30px;
+}
+.paperTitle{
+  font-weight: bold;
+}
+
+.paperSubtitle{
+  margin-top: 50px;
+  font-size: 30px;
+}
+.paperSubtitle2{
+  margin-top: 20px;
+  font-size: 22px;
+}
+.content p{
+  margin-top: 10px;
+  font-size: 20px;
+}
+.subtitleSub{
+  padding: 0 50px;
+  font-size: 18px !important;
+}
+#mapLeaflet {
+  height: 700px !important;
+}
+.country-table {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1441px) {
+  #intro-head{
+    padding: 20px 0px !important;
+    margin: 50px auto 0 auto !important;
+  }
+  #intro-head h1{
+    font-size: 40px;
+  }
+  #intro-head h2{
+    font-size: 30px;
+  }
+  .nav{
+    font-size: 20px;
+  }
+  .overview{
+    margin: 0 auto !important;
+    width:85%;
+  }
+  .growth-heading{
+    width: 50%;
+  }
+  .well{
+    width: 28%;
+    margin: auto 10px;
+  }
+  .hist-fact{
+    width: 100%;
+    margin: 0px !important;
+  }
+  .table-class{
+    width: 100%;
+  }
+  .map-well{
+    width: 100% !important;
+  }
+  .map-title h1{
+    font-size: 40px;
+  }
+  .map-title h2{
+    font-size: 30px;
+  }
+  #mapLeaflet {
+    height: 450px !important;
+  }
+  .country-profile{
+    width: 50%;
+    margin: 20px auto;
+  }
+  .countrydetails {
+    width: 50%;
+    margin: 20px auto !important;
+    padding: 20px 30px !important;
+  }
+  #countryYearResults{
+    height: 300px !important;
+  }
+  #country-profile-flag {
+    width: 150px !important;
+  }
+  #country-profile-name {
+    font-size: 18px;
+  }
+  #country-profile-table {
+    font-size: 14px;
+  }
+  .predictPage{
+  margin: 0 15%;
+  }
+  .imgcenter {
+  width: 500px;
+  }
+  .post {
+    margin: 0 5% 10px 5%;
+  }
+  .sidebar {
+    flex: 3;
+  }
+  .sidebarTitle {
+    font-size: 18px;
+  }
+  .paperSubtitle {
+    margin-top: 40px;
+    font-size: 22px !important;
+    font-weight: 600;
+  }
+  .sidebarItem  p {
+    line-height: 24px;
+    font-size: 14px;
+  }
+  .growth-heading{
+    font-size: 36px;
+  }
+  .hist-fact{
+    font-size: 16px;
+  }
+  .medaltally-heading{
+    font-size: 2.5rem;
+  }
+  #medal-tally-title{
+    font-size: 2rem;
+  }
+  .hist-fact h2{
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .paperTitle{
+    font-size: 2.25rem;
+  }
+  .content p{
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 1367px) {
+  .nav{
+    font-size: 18px;
+  }
+  .overview{
+    width:90%;
+  }
+  .country-profile{
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 2559px) {
+  .overview{
+    margin-top: 250px !important;
+  }
+  .nav{
+    font-size: 24px;
+    margin: 0px 10%;
+  }
+  .navbar-brand{
+    margin-left: 100%;
+  }
+  .growth-heading{
+    margin: 100px auto;
+    width: 80%;
+  }
+  .plot-style{
+    height: 500px;
+  }
+  .grwoth-line-legend{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .hist-fact{
+    width: 70%;
+  }
+  .medaltally-heading{
+    margin: 100px auto 30px auto;
+  }
+  #leaflet-map-container{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .countrypage{
+    width: 80%;
+    margin: 0 auto;
+  }
+  .predictPage{
+    margin: 5% 20% 0px;
+  }
+  .blogpage{
+    width: 80%;
+    margin: 5% auto;
+  }
+}
